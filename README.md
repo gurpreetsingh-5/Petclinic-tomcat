@@ -56,6 +56,8 @@ ipaddress/localhost:8080
 ```
 cd /home/ubuntu
 git clone https://github.com/gurpreetsingh-5/Petclinic.git
+or
+git clone https://github.com/gurpreetsingh-5/Petclinic-tomcat.git
 mvn clean package
 cp /home/ubuntu/Petclinic/target/petclinic.war /opt/apache-tomcat-9.0.65/webapps/
 ipaddress/localhost:8080/petclinic
